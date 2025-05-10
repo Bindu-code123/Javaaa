@@ -15,11 +15,7 @@ public class Main
 		{
 		    char A=p.charAt(i);
 		    if(a.contains(A))
-		    {
-		        a.remove(Character.valueOf(A));
-		        i--;
-		        p=p.replace(A+"","");
-		    }
+		    a.remove(Character.valueOf(A));      
 		}
 		if(a.size()==0)
 		System.out.println("yes pangram");
