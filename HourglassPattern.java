@@ -20,7 +20,7 @@ public class Main
             k--;
             System.out.println();
         }
-        p=2*n-3;
+        p=n+1;
         k=0;
         for(int i=2;i<=n;i++)
         {
